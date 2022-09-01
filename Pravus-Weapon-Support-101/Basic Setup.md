@@ -105,3 +105,45 @@ default values.. But this time is the recoil reduction values..
 
 ```
 
+
+<br    />
+
+After that's done. lets get to the next one.
+
+<br    />
+
+The next one is in the "opticsattachments" prefab.
+Which is called "defaultaiminginteger".
+
+<br    />
+
+This one is easy. We'll get to animator integers later.. That means, leave it to zero.
+
+<br    />
+
+And next is the "defaultskin", which is inside the "skins" prefab.
+
+Just put your magazine's prefab in the "gunrenderermagazine" game object container. And you are set.
+But if you are planning to add skins in your gun.
+
+<br     />
+
+Make a array. (Like add more game objects inside the game object data container).
+
+For Example.
+```
+gunrenderer1 = body
+gunrenderer2 = mag
+gunrenderer3 = slide
+gunrenderer4 - infinity = blah blah how many default seperate object is in your gun.
+
+```
+
+**Why This?**
+
+These are needed soo you put your gun's default skin again. And won't overlap with another skin you put.
+
+
+<TO BE CONTINUED I'M SOO TIRED LOL>
+
+
