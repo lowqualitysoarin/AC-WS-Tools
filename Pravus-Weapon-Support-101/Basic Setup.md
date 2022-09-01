@@ -74,5 +74,34 @@ Though at the moment it only includes a single setting. Which is "pravcSuppresse
 
 By Expanding the "weaponattachments" prefab. You'll see a few prefabs with dropdowns. Which you'll need to setup as well.
 
+By going to the "barrelattachments" prefab then expanding it. You''l see a prefab named "defaultrecoilvalues".
+> This is important because these helps to reset your recoil if you unequip a muzzle brake.
 
+<br      />
+
+To set them up. There is a text file that shows what will you put in those values. Just search up in your unity search "How to set up muzzle brake." Or something like that and it should lead you to that text file.
+
+<br      />
+
+**Inside the text file.**
+
+```
+Be sure you've set up the default recoil values
+
+If you don't this is how you set it up...
+
+
+defaultrecoilval1 = Base Kickback
+defaultrecoilval2 = Kickback Prone Multiplier
+defaultrecoilval3 = Random Kickback
+defaultrecoilval4 = Snap Duration
+defaultrecoilval5 = Snap Frequency
+defaultrecoilval6 = Snap Magnitude
+defaultrecoilval7 = Snap Prone Multiplier
+
+
+To set it up for the muzzle brake.. Its the same thing! As how you set up the
+default values.. But this time is the recoil reduction values..
+
+```
 
