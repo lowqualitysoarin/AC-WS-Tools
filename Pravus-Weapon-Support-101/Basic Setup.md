@@ -136,7 +136,6 @@ gunrenderer1 = body
 gunrenderer2 = mag
 gunrenderer3 = slide
 gunrenderer4 - infinity = blah blah how many default seperate object is in your gun.
-
 ```
 
 **Why This?**
