@@ -23,6 +23,6 @@ Open up your Unity Project and then find the Pravus Framework tools in your dire
 Just hit "Import" and you are all set.
 
 
-## [] Step Two: Basic Setup
+###### [] Step Two: Basic Setup
 
 
