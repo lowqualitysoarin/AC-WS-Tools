@@ -35,7 +35,44 @@ Then go to the "PravusFrame" folder and drag the "PravusFramework_Base" prefab i
 () Not recommended putting the base prefab inside the weapon model's prefab. Issues may occur.
 
 
+<br    />
 
+###### [] Step Three: Configuration (Finishing Touches)
+
+Click on the base prefab. And you should see two missing spaces there.
+
+Which is the "unSilFireSoundEffect" and "unSilMuzzleFlash"
+
+<br    />
+
+**What Are These?**
+
+() These are the defaults. If you are going to use suppressors, and muzzle brakes in your firearm.
+> Since those attachments will modify your gun's "Muzzle Flash" and "Fire Sounds".
+
+<br   />
+
+Put your default fire audio clip and default muzzle flash game object in the respective containers.
+And you are done in this part.
+
+<br     />
+
+###### [] Weapon Settings
+
+When expanding the prefab you'll see another game object called "Weapon Settings".
+Though at the moment it only includes a single setting. Which is "pravcSuppressedByDefault"
+
+<br    />
+
+**What is this**
+
+() This is a setting if the firearm is suppressed by default. Like if its a AS VAL or something you might want to leave this checked.
+
+<br    />
+
+###### [] Other Important Things To Edit
+
+By Expanding the "weaponattachments" prefab. You'll see a few prefabs with dropdowns. Which you'll need to setup as well.
 
 
 
