@@ -11,4 +11,4 @@ Guide is still in progress...
 
 # Video Tutorial For Basic Setup
 
-https://www.youtube.com/watch?v=byLxj_MIInw
+https://img.youtube.com/vi/byLxj_MIInw/maxresdefault.jpg
