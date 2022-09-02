@@ -150,6 +150,7 @@ In this one is really simple. Just put your gun's default projectile prefab in "
 <br    />
 
 Next.. Is the "defaultmagazineproperties". Which is inside the "magtypes" prefab.
+![alt text](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/edit/image.jpg?raw=true)
 Just simply put your default magazine capacity in the float, and you are done.
 > Example: M16A4 with a regular stanag mag = 30.
 
