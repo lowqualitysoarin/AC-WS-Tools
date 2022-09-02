@@ -4,10 +4,13 @@ Tools for the framework.
 
 Expect the tools to be updated.
 
-Guide is still in progress...
+<br   />
+
+Basic Setup [Guide]( is active!
 
 
 
+<br     />
 
 # Video Tutorial For Basic Setup
 
