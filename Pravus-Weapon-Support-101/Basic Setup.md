@@ -232,7 +232,7 @@ Simply just follow what it says.
 
 # And you are done!
 
-You've finish the basic setup of your Pravus Framework supported firearm. Export the weapon and try it out.
+You've finish the basic setup of your Pravus Framework supported firearm. Export the weapon with the Pravus Framework Mutator enabled and try it out.
 
 <br     />
 
