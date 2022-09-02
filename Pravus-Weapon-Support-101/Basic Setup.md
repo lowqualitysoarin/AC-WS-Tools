@@ -102,7 +102,6 @@ defaultrecoilval7 = Snap Prone Multiplier
 
 To set it up for the muzzle brake.. Its the same thing! As how you set up the
 default values.. But this time is the recoil reduction values..
-
 ```
 
 
@@ -142,7 +141,19 @@ gunrenderer4 - infinity = blah blah how many default seperate object is in your 
 
 These are needed soo you put your gun's default skin again. And won't overlap with another skin you put.
 
+<br    />
 
-<TO BE CONTINUED I'M SOO TIRED LOL>
+When you are finished. Now go to the "ammotypes" prefab.
+In this one is really simple. Just put your gun's default projectile prefab in "ammotype0" container.
+> Again this is the default just incase you swap weapons or change ammotypes.
+
+<br    />
+
+Next.. Is the "defaultmagazineproperties". Which is inside the "magtypes" prefab.
+Just simply put your default magazine capacity in the float, and you are done.
+> Example: M16A4 with a regular stanag mag = 30.
+
+
+
 
 
