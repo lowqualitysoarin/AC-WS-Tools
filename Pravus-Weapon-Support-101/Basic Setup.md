@@ -153,7 +153,7 @@ Next.. Is the "defaultmagazineproperties". Which is inside the "magtypes" prefab
 
 <br    />
 
-![alt text](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/defaultmagazineproperties.png?raw=true)
+![alt text](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/tree/main/Pravus-Weapon-Support-101/Guide-Images/defaultmagazineproperties.png?raw=true)
 
 Just simply put your default magazine capacity in the float, and you are done.
 > Example: M16A4 with a regular stanag mag = 30.
