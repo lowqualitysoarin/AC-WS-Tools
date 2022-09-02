@@ -6,7 +6,7 @@ Expect the tools to be updated.
 
 <br   />
 
-Basic Setup [Guide]( is active!
+Basic Setup [Guide](github.com/lowqualitysoarin/Pravus-Framework-Tools/wiki/Getting-Started) is active!
 
 
 
