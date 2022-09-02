@@ -234,6 +234,8 @@ Simply just follow what it says.
 
 You've finish the basic setup of your Pravus Framework supported firearm. Export the weapon and try it out.
 
+<br     />
+
 **Other stuffs**
 
 You can open up your console by hitting "PageUP".
@@ -241,6 +243,7 @@ You can open up your console by hitting "PageUP".
 This will help you if you missed something or missing some dependecies.
 Since Pravus Framework spits custom errors if there are some!
 
+<br       />
 
 ##### [] Pravus Framework Syntaxs
 
@@ -253,6 +256,7 @@ Yellow = Indicates if Pravus Framework found something missing that is optional.
 <br   />
 
 Red = Indicates if Pravus Framework found something missing that is important. (Heavy Warning.)
+
 
 <br   />
 
