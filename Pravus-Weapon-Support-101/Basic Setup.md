@@ -256,7 +256,7 @@ Yellow = Indicates if Pravus Framework found something missing that is optional 
 <br   />
 
 Red = Indicates if Pravus Framework found something missing that is important. (Heavy Warning.)
-
+> Might be triggered alongside with real errors.
 
 <br   />
 
