@@ -245,7 +245,7 @@ Since Pravus Framework spits custom errors if there are some!
 
 <br       />
 
-##### [] Pravus Framework Syntaxs
+##### [] Pravus Framework Syntax
 
 Green = Indicates if Pravus Framework found a addon for it or a good firearm status.
 
