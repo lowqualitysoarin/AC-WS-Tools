@@ -251,7 +251,7 @@ Green = Indicates if Pravus Framework found a addon for it or a good firearm sta
 
 <br   />
 
-Yellow = Indicates if Pravus Framework found something missing that is optional. (Just a light warning.)
+Yellow = Indicates if Pravus Framework found something missing that is optional or a Heads Up changes. (Just a light warning.)
 
 <br   />
 
