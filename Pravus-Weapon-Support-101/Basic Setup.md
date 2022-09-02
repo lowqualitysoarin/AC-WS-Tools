@@ -22,9 +22,14 @@ Just hit "Import" and you are all set.
 
 Find the "Pravus Framework Tools" Folder
 
+<br     />
+
+
 Then go to the "PravusFrame" folder and drag the "PravusFramework_Base" prefab in your weapon.
 
 <br    />
+
+![baseprefab](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/baseprefab.png?raw=true)
 
 **Heads Up!!!**
 
@@ -40,6 +45,14 @@ Then go to the "PravusFrame" folder and drag the "PravusFramework_Base" prefab i
 ###### [] Step Three: Configuration (Finishing Touches)
 
 Click on the base prefab. And you should see two missing spaces there.
+
+<br     />
+
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/audioclip.png?raw=true)
+
+<br    />
+
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/muzzleflash.png?raw=true)
 
 Which is the "unSilFireSoundEffect" and "unSilMuzzleFlash"
 
@@ -64,6 +77,8 @@ Though at the moment it only includes a single setting. Which is "pravcSuppresse
 
 <br    />
 
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/suppressedbydefault.png?raw=true)
+
 **What is this**
 
 () This is a setting if the firearm is suppressed by default. Like if its a AS VAL or something you might want to leave this checked.
@@ -76,6 +91,10 @@ By Expanding the "weaponattachments" prefab. You'll see a few prefabs with dropd
 
 By going to the "barrelattachments" prefab then expanding it. You''l see a prefab named "defaultrecoilvalues".
 > This is important because these helps to reset your recoil if you unequip a muzzle brake.
+
+<br    />
+
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/defaultrecoilvalues.png?raw=true)
 
 <br      />
 
@@ -116,11 +135,19 @@ Which is called "defaultaiminginteger".
 
 <br    />
 
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/defaultaimingint.png?raw=true)
+
+<br    />
+
 This one is easy. We'll get to animator integers later.. That means, leave it to zero.
 
 <br    />
 
 And next is the "defaultskin", which is inside the "skins" prefab.
+
+<br    />
+
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/defaultskin.png?raw=true)
 
 Just put your magazine's prefab in the "gunrenderermagazine" game object container. And you are set.
 But if you are planning to add skins in your gun.
@@ -144,6 +171,11 @@ These are needed soo you put your gun's default skin again. And won't overlap wi
 <br    />
 
 When you are finished. Now go to the "ammotypes" prefab.
+
+<br    />
+
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/defaultammotype.png?raw=true)
+
 In this one is really simple. Just put your gun's default projectile prefab in "ammotype0" container.
 > Again this is the default just incase you swap weapons or change ammotypes.
 
@@ -153,10 +185,83 @@ Next.. Is the "defaultmagazineproperties". Which is inside the "magtypes" prefab
 
 <br    />
 
-![alt text](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/tree/main/Pravus-Weapon-Support-101/Guide-Images/defaultmagazineproperties.png?raw=true)
+![magprop](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/defaultmagazineproperties.png?raw=true)
 
 Just simply put your default magazine capacity in the float, and you are done.
 > Example: M16A4 with a regular stanag mag = 30.
+
+And as for the "defaultreloadint". We'll get to that later.. Leave it zero.
+
+<br    />
+
+Next up. The "defaultfiremodeproperties" inside the "firearmmechanisms" prefab.
+
+<br     />
+
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/firemodeproperties1.png?raw=true)
+
+<br     />
+
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/firemodeproperties2.png?raw=true)
+
+In this part, You'll have to put your firearm's default cooldown, does it have heat?, is it auto, default fire sound, etc...
+
+**Description Of The Containers**
+
+```
+pravcDefaultIsAuto = Check if your firearm is automatic.
+pravcDefaultHasHeat = Check if your firearm can overheat (Useful if the gun is burst fire.)
+
+defaultfiremodeanimint = We'll get to this later.. Again..
+
+pravcDefaultCooldown = Your weapon's cooldown value.
+pravcDefaultHeatGainPerShot = Your weapon's heat gain value. (Only works if your weapon has heat.)
+pravcDefaultHeatDrainRate = Your weapon's drain rate value. (Only works if your weapon has heat.)
+
+defaultfiremodesound = Your weapon's default firing sound.
+```
+
+<br     />
+
+Last but not the least.. The "weapondesc" inside the "Weapon Info" prefab.
+
+![spaces](https://github.com/lowqualitysoarin/Pravus-Framework-Tools/blob/main/Pravus-Weapon-Support-101/Guide-Images/weaponinfo.png?raw=true)
+
+Simply just follow what it says. 
+
+
+# And you are done!
+
+You've finish the basic setup of your Pravus Framework supported firearm. Export the weapon and try it out.
+
+**Other stuffs**
+
+You can open up your console by hitting "PageUP".
+
+This will help you if you missed something or missing some dependecies.
+Since Pravus Framework spits custom errors if there are some!
+
+
+##### [] Pravus Framework Syntaxs
+
+Green = Indicates if Pravus Framework found a addon for it or a good firearm status.
+
+<br   />
+
+Yellow = Indicates if Pravus Framework found something missing that is optional. (Just a light warning.)
+
+<br   />
+
+Red = Indicates if Pravus Framework found something missing that is important. (Heavy Warning.)
+
+<br   />
+
+There is also a Example Weapon Prefab that shows examples on how to add suppressors and adding skins in your.
+Yep the example weapon is not finished. But gonna add new examples for it soon!
+
+
+
+
 
 
 
